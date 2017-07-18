@@ -1,0 +1,27 @@
+{
+    "title": "Cookie Consent",
+    "version": "1.00",
+    "name": "CookieConsent",
+    "description": "Cookie Consent is a plugin for alerting users about the use of cookies on your website.",
+    "author": "Brent Holmes",
+    "options": [
+        {
+            "label": "Background Color",
+            "name": "bgColor",
+            "type": "Color",
+            "default": "#000"
+        },
+        {
+            "label": "Button Color",
+            "name": "buttonColor",
+            "type": "Color",
+            "default": "#f1d600"
+        },        {
+            "label": "Position",
+            "name": "position",
+            "type": "select",
+            "default": "Banner top",
+            "values": ["Banner top", "Banner top (pushdown)", "Banner bottom", "Floating left", "Floating right"]
+        }
+    ]
+}
